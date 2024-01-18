@@ -5,5 +5,9 @@ kMeans clustering is a machine learning algorithm that aims to minimize the foll
 ```math
 $$\sum\limits^k_{i=1}\sum\limits^{|c_{i}|}_{j=1}|c_{i}[j]-C_{i}|^{2}$$
 ```
+This algorithm works by attributing a set of points to a cluster $c$, calculating the _variance_ of the cluster, i.e., the squared distance of each one of the points and the centroid, and shifting the cluster to incorporate points that have lesser _variance_ against the centroid. 
+
+Here is a visualisation of the algorithm across $k=10$
+
 ![](kmeans.gif)
 
