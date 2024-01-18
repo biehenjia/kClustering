@@ -11,3 +11,11 @@ Here is a visualisation of the algorithm across $k=10$
 
 ![](kmeans.gif)
 
+## Complexity analysis
+The naive implementation of kMeans clustering under $2$ dimensions and $k$ clusters is $O(n^{2k+1})$. For each point among $n$ points,
+
+# kMeans with lloyd's optimization
+Lloyd's algorithm is an implementation 
+
+# DBSCAN
+
